@@ -1,5 +1,5 @@
 const os = require('os');
-// const { setInterval } = require('timers/promises');
+const log = require('./logger')
 
 const { freemem, totalmem } = os
 
@@ -17,5 +17,7 @@ setInterval( () => {
 
     console.clear()
     console.table(stats)
+
+    log(`${JSON.stringify(stats)}\n`)
 
 }, 1000 )
