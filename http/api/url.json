@@ -2,19 +2,23 @@
     "url": [
         {
             "name": "YT",
-            "url": "youtube.com.br"
+            "url": "https://youtube.com.br/"
         },
         {
             "name": "instagram",
-            "url": "instagram.com.br"
+            "url": "https://instagram.com.br/"
         },
         {
             "name": "Discord",
-            "url": "discord.com"
+            "url": "https://discord.com/"
         },
         {
             "name": "topcidade",
-            "url": "topcidadegourmet.com.br"
+            "url": "https://topcidadegourmet.com.br/"
+        },
+        {
+            "name": "kelvin",
+            "url": "https://kelvin.com.br/"
         }
     ]
 }

@@ -28,8 +28,7 @@ http.createServer((req, res) => {
     if ( !name || !url )
         return res.end(JSON.stringify(data))
     
-    if ( del === true ) {
-        console.log(url)
+    if ( del ) {
         data.url = data.url.filter( i => String(i.url) !== String(url) )
         return writeFile( message => res.end(message) )
          
